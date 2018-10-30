@@ -1,0 +1,25 @@
+{
+  "name": "hellowebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js"
+  },
+  "author": "yuanyuan",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^0.28.9",
+    "eslint": "^4.18.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^13.7.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.13"
+  }
+}
